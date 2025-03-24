@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobListing & HR Consultant</title>
+
+    <!-- Font Awesome CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link href="assets/css/prime.css" rel="stylesheet">
+
+<link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/fonts.css" rel="stylesheet">
+
+    <style>
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/images/ptlogo b.png" alt="Logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#categories">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="buttons">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Welcome to PrimeTalent & HR Consultants</h1>
+            <p>Your Trusted Partner in Recruitment and HR Solutions</p>
+            <button class="cta-btn">Explore Opportunities</button>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <span class="close-btn" onclick="toggleMenu()">×</span>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <button class="login-btn">Login</button>
+        <button class="signup-btn">Sign Up</button>
+    </div>
+
+    <!-- Main Section -->
+<section class="main-section" id="main-section">
+    <div class="container-left">
+        <i class="fas fa-briefcase icon"></i>
+        <div class="content">
+            <h3>Looking for a Job?</h3>
+            <p>Your next role could be with one of these top leading organizations.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="container-right">
+        <i class="fas fa-building icon"></i>
+        <div class="content">
+            <h3>Looking to Hire?</h3>
+            <p>Find the best talent for your organization with our expert services.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="categories-section" id="categories">
+    <h2>Explore Our Services</h2>
+    <hr class="section-line">
+    <div class="category-grid">
+        <!-- Category 1 -->
+        <div class="category-item">
+            <div class="icon">
+                <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Job Opportunities</h3>
+            <p>Discover career opportunities with top companies</p>
+            <a href="#">Explore</a>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="category-item">
+            <div class="icon">
+                <i class="fas fa-building"></i>
+            </div>
+            <h3>Hiring Companies</h3>
+            <p>Find the best talent for your business</p>
+            <a href="#">Explore</a>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="category-item">
+            <div class="icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Education & Training</h3>
+            <p>Enhance your skills with top courses</p>
+            <a href="#">Explore</a>
+        </div>
+
+        <!-- Category 4 -->
+        <div class="category-item">
+            <div class="icon">
+                <i class="fas fa-users"></i>
+            </div>
+            <h3>Consulting Services</h3>
+            <p>Get expert advice for your business growth</p>
+            <a href="#">Explore</a>
+        </div>
+
+        
+    </div>
+</section>
+
+<section class="explore-jobs">
+    <h2>Explore Jobs</h2>
+    <hr class="section-line">
+    <div class="job-container">
+      <div class="job-card">
+        <!-- Job Image and Bookmark -->
+        <div class="top-row">
+          <div class="job-image">
+            <img src="assets/images/testlogo.jpg" alt="Company Logo">
+          </div>
+          <div class="bookmark-icon">
+            <i class="fa fa-bookmark"></i> <!-- FontAwesome bookmark icon -->
+          </div>
+        </div>
+  
+        <!-- Job Info -->
+        <div class="job-details">
+          <!-- Company Name and Date -->
+          <div class="company-date">
+            <p class="company-name">Company Name</p>
+            <p class="job-date">Posted on March 21, 2025</p>
+          </div>
+          
+          <!-- Job Title -->
+          <div class="job-title">
+            <h3>Job Title</h3>
+            <!-- Job Type -->
+          <div class="job-type">
+            <p>Full-Time</p>
+          </div>
+          </div>
+  
+          <!-- Separator Line -->
+          <hr class="separator">
+  
+          <!-- Location and Apply Button (Last Row) -->
+          <div class="bottom-row">
+            <div class="location">
+              <p>New York, USA</p>
+            </div>
+            <div class="apply-button">
+              <button class="apply-btn">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more job cards here if needed -->
+      <div class="job-card">
+        <!-- Job Image and Bookmark -->
+        <div class="top-row">
+          <div class="job-image">
+            <img src="assets/images/testlogo.jpg" alt="Company Logo">
+          </div>
+          <div class="bookmark-icon">
+            <i class="fa fa-bookmark"></i> <!-- FontAwesome bookmark icon -->
+          </div>
+        </div>
+  
+        <!-- Job Info -->
+        <div class="job-details">
+          <!-- Company Name and Date -->
+          <div class="company-date">
+            <p class="company-name">Company Name</p>
+            <p class="job-date">Posted on March 21, 2025</p>
+          </div>
+          
+          <!-- Job Title -->
+          <div class="job-title">
+            <h3>Job Title</h3>
+            <!-- Job Type -->
+          <div class="job-type">
+            <p>Full-Time</p>
+          </div>
+          </div>
+  
+          <!-- Separator Line -->
+          <hr class="separator">
+  
+          <!-- Location and Apply Button (Last Row) -->
+          <div class="bottom-row">
+            <div class="location">
+              <p>New York, USA</p>
+            </div>
+            <div class="apply-button">
+              <button class="apply-btn">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="job-card">
+        <!-- Job Image and Bookmark -->
+        <div class="top-row">
+          <div class="job-image">
+            <img src="assets/images/testlogo.jpg" alt="Company Logo">
+          </div>
+          <div class="bookmark-icon">
+            <i class="fa fa-bookmark"></i> <!-- FontAwesome bookmark icon -->
+          </div>
+        </div>
+  
+        <!-- Job Info -->
+        <div class="job-details">
+          <!-- Company Name and Date -->
+          <div class="company-date">
+            <p class="company-name">Company Name</p>
+            <p class="job-date">Posted on March 21, 2025</p>
+          </div>
+          
+          <!-- Job Title -->
+          <div class="job-title">
+            <h3>Job Title</h3>
+            <!-- Job Type -->
+          <div class="job-type">
+            <p>Full-Time</p>
+          </div>
+          </div>
+  
+          <!-- Separator Line -->
+          <hr class="separator">
+  
+          <!-- Location and Apply Button (Last Row) -->
+          <div class="bottom-row">
+            <div class="location">
+              <p>New York, USA</p>
+            </div>
+            <div class="apply-button">
+              <button class="apply-btn">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- More Jobs Button -->
+    <div class="more-jobs-container">
+        <button class="more-jobs-btn">More Jobs</button>
+    </div>
+</section>
+
+  <!-- Blog Section -->
+<section class="career-advice">
+    <h2>Career Advice</h2>
+    <hr class="section-line">
+    <div class="blog-container">
+        <!-- Blog Card 1 -->
+        <div class="blog-card">
+            <img src="assets/images/about1.jpg" alt="Blog Image">
+            <div class="blog-content">
+                <div class="blog-meta">Posted by John Doe</div>
+                <h3>Exploring the Future of AI</h3>
+                <p class="blog-text">Artificial Intelligence is shaping the world in unimaginable ways. Discover how it is evolving...</p>
+                <div class="line"></div>
+                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="blog-card">
+            <img src="assets/images/about2.jpeg" alt="Blog Image">
+            <div class="blog-content">
+                <div class="blog-meta">Posted by Jane Smith</div>
+                <h3>Business Strategies in 2025</h3>
+                <p class="blog-text">The corporate world is changing. Learn the best strategies to stay ahead in business...</p>
+                <div class="line"></div>
+                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="blog-card">
+            <img src="assets/images/about3.jpg" alt="Blog Image">
+            <div class="blog-content">
+                <div class="blog-meta">Posted by Alice Brown</div>
+                <h3>Nature and Well-being</h3>
+                <p class="blog-text">Nature has a great impact on our well-being. Discover how you can benefit from it...</p>
+                <div class="line"></div>
+                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+  <footer>
+        <!-- First Row -->
+        <div class="footer-top">
+            <div class="footer-logo-text">
+                <img src="assets/images/testlogo.jpg" alt="Logo">
+                <p>Prime Talent</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!-- Separator -->
+        <hr>
+
+        <!-- Second Row -->
+        <div class="footer-middle">
+            <div class="footer-info">
+                <p>Stay updated with our latest news and offers.</p>
+            </div>
+            <div class="footer-subscribe">
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+        <!-- Third Row: Links -->
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- Bottom Row: Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 primetalent.co.tz. All Rights Reserved.</p>
+        </div>
+    </footer>
+  
+
+  
+
+
+
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.querySelector(".mobile-menu");
+            const hamburger = document.querySelector(".hamburger");
+
+            mobileMenu.classList.toggle("active");
+            hamburger.classList.toggle("active");
+        }
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
